@@ -1,0 +1,21 @@
+# 跨期时间偏好——做空矩阵做多不确定
+
+昔我往矣，杨柳依依。今我来思，雨雪霏霏。一个保险交易员有其独特于大众的时间偏好，
+他在过往与未来中穿梭，消解心中即时满足的渴，换之以绵密恒长的幸福心流。
+
+我们因为生物之本能赋予当下的满足以极大的权重，在知觉上，在记忆中。
+会计学和心理学的交叉领域中有个重要的概念叫“延迟折扣或者双曲线折扣(Hyperbolic Discounting)”，
+它是指在有限的时间压力下，人们相比起未来的奖励给予当下的即时的奖励更高的优先级。
+
+https://blog.hubspot.com/sales/hyperbolic-discounting#:~:text=Hyperbolic%20discounting%20is%20a%20psychological,term%20reward%2C%20or%20instant%20gratification.
+
+适度的未来时间观、强烈的积极的怀旧时间观、适度的当下的享乐主义
+
+成瘾性行为的机制
+时间的价格
+善待未来的自己
+注意力在去除阻力不应在落地动作而是上拉动作
+
+(Severity Value * Probability of Success)/(Distractibility * Reward Delay)
+ 
+## 推荐书目与核心概念
