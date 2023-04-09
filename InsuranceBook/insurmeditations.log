@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.19)  25 MAR 2023 12:55
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.19)  8 APR 2023 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1190,26 +1190,26 @@ LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/b/n' will be
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/b/n' will be
 (Font)              scaled to size 10.23074pt on input line 1.
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 7.
+(Font)              scaled to size 10.53937pt on input line 5.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.37756pt on input line 7.
+(Font)              scaled to size 7.37756pt on input line 5.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.26968pt on input line 7.
+(Font)              scaled to size 5.26968pt on input line 5.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.54033pt on input line 7.
+(Font)              scaled to size 10.54033pt on input line 5.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.37823pt on input line 7.
+(Font)              scaled to size 7.37823pt on input line 5.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.27016pt on input line 7.
+(Font)              scaled to size 5.27016pt on input line 5.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.53824pt on input line 7.
+(Font)              scaled to size 10.53824pt on input line 5.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.37677pt on input line 7.
+(Font)              scaled to size 7.37677pt on input line 5.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.26912pt on input line 7.
+(Font)              scaled to size 5.26912pt on input line 5.
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 7.
+(Font)              size <10.95> substituted on input line 5.
 
 )
 \tf@toc=\write5
@@ -1228,18 +1228,20 @@ Chapter 2.
 [4
 
 ]
-LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10.53937> not available
-(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on input line 155.
-LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/it' will be
-(Font)              scaled to size 10.27707pt on input line 155.
-[5]
 Chapter 3.
-[6
+LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/b/n' will be
+(Font)              scaled to size 14.61537pt on input line 207.
+[5
 
 ]
+LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10.53937> not available
+(Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on input line 239.
+LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/it' will be
+(Font)              scaled to size 10.27707pt on input line 239.
+[6]
 Chapter 4.
 
-Overfull \hbox (20.28728pt too wide) in paragraph at lines 197--199
+Overfull \hbox (20.28728pt too wide) in paragraph at lines 265--267
 \TU/FandolSong-Regular(0)/m/n/10.53937 几 何 平 均 期 望。|  假 设 你 花 \TU/lmr/m/n/10.53937 50,000 \TU/FandolSong-Regular(0)/m/n/10.53937 参 与 游 戏 为 例，|  最 终 的 几 何 期 望 收 益 就 是 \TU/lmr/m/n/10.53937 (50001\TU/lmr/m/it/10.53937 50002\TU/lmr/m/n/10.53937 50006\TU/lmr/m/it/10.53937 50022\TU/lmr/m/n/10.53937 50200*10050000)
  []
 
@@ -1247,39 +1249,43 @@ Overfull \hbox (20.28728pt too wide) in paragraph at lines 197--199
 
 ] [8]
 Chapter 5.
-LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/b/n' will be
-(Font)              scaled to size 14.61537pt on input line 261.
 [9
 
-] [10]
+] [10] [11]
 Chapter 6.
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/b/n' will be
-(Font)              scaled to size 11.69229pt on input line 341.
+(Font)              scaled to size 11.69229pt on input line 429.
 Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:mapping=tex-text;!
-[11
+[12
+
+] [13]
+Chapter 7.
+File: 6006-chapter06_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type pdf)
+<use 6006-chapter06_files/figure-latex/unnamed-chunk-1-1.pdf>
+[14
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 382.
+LaTeX Warning: Empty bibliography on input line 518.
 
-[12] (./insurmeditations.aux)
+[15] [16] (./insurmeditations.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
 Package rerunfilecheck Info: File `insurmeditations.out' has not changed.
-(rerunfilecheck)             Checksum: 658112955DC201FF3B81295C2DC3B6B0;1501.
+(rerunfilecheck)             Checksum: A753324F0FD68A2ED3C3CA9562D0769B;2173.
 Package logreq Info: Writing requests to 'insurmeditations.run.xml'.
 \openout1 = `insurmeditations.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28010 strings out of 477643
- 565624 string characters out of 5841019
- 1543750 words of memory out of 5000000
- 48779 multiletter control sequences out of 15000+600000
+ 28100 strings out of 477643
+ 572186 string characters out of 5841019
+ 1544917 words of memory out of 5000000
+ 48866 multiletter control sequences out of 15000+600000
  478485 words of font info for 107 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,6n,138p,689b,5044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on insurmeditations.pdf (13 pages).
+Output written on insurmeditations.pdf (17 pages).
