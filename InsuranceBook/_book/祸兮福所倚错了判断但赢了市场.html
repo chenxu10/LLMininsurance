@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>化险为夷——与复杂性和波动性共舞的艺术</title>
+  <title>6 祸兮福所倚——错了判断，但赢了市场 | 化险为夷——与复杂性和波动性共舞的艺术</title>
   <meta name="description" content="This is book about insurance history, technology and philosophy" />
   <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="化险为夷——与复杂性和波动性共舞的艺术" />
+  <meta property="og:title" content="6 祸兮福所倚——错了判断，但赢了市场 | 化险为夷——与复杂性和波动性共舞的艺术" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is book about insurance history, technology and philosophy" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="化险为夷——与复杂性和波动性共舞的艺术" />
+  <meta name="twitter:title" content="6 祸兮福所倚——错了判断，但赢了市场 | 化险为夷——与复杂性和波动性共舞的艺术" />
   
   <meta name="twitter:description" content="This is book about insurance history, technology and philosophy" />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="夜奔大同风险转移与均摊的大前提.html"/>
+<link rel="prev" href="不可胜在己的编码与交易风险管理.html"/>
+<link rel="next" href="遇见五十年后的自己.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -125,31 +125,54 @@ MathJax.Hub.Config({
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">化险为夷——与复杂性和波动性共舞的艺术</h1>
-<p class="author"><em>广予</em></p>
-<p class="date"><em>2022年11月26日</em></p>
+<div id="祸兮福所倚错了判断但赢了市场" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> 祸兮福所倚——错了判断，但赢了市场<a href="祸兮福所倚错了判断但赢了市场.html#祸兮福所倚错了判断但赢了市场" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>如果把每一笔交易都当成一场战争，那么在投入到血雨腥风之前，
+我们必须先算好自己的获胜概率与下注的金额(dosage or betting ratio)，否则就容易赢了概率输了赌局。
+但如果我们的下注比例调整准确则可以如爱德华.索普(Edward Thorp)说的那样用庄家的钱赚钱。
+曹操批孙子兵法有云：“故战必先算其费，因粮于敌也。”
+1992年，爱德华.索普与Louis Rotando联合发表了凯利判据(Kelly Criterion)是如何应用于股票市场的资源分配问题的。</p>
+<div id="凯利判据的核心思想" class="section level3 hasAnchor" number="6.0.1">
+<h3><span class="header-section-number">6.0.1</span> 凯利判据的核心思想<a href="祸兮福所倚错了判断但赢了市场.html#凯利判据的核心思想" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>假设你有一笔初始资金，你和庄家对赌，庄家拥有远大于你的接近无限的本金，但是设你用演绎法获得了一些信息优势。
+每次赌局，你获胜的概率是0.7，而庄家获胜的概率是0.3。现在问你每笔赌局你应该下注多少，才能最大化你的收益，同时避免赌徒毁灭的困局。</p>
+<p>爱德华.索普创造性地调整了优化的指标，既不是最小化毁灭的概率E(x0-&gt;0)，而不是最大化收益E(xn),而是最大化资本增长率对数转化下的几何平均
+而非算术平均即E(log(xn/x0)^1/n)。如果我们要使得该值最大，那么每次下注的比例就是b - q/p，其中b是你潜在的获利除以你需要付出的成本，
+p是你获胜的概率，q是你输的概率。</p>
 </div>
-<div id="前言" class="section level1 unnumbered hasAnchor">
-<h1>前言<a href="index.html#前言" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>这是一本关于保险历史、金融和科技的书。它将通过开源协作的方式不断更新。它将秉承尽早出版，经常出版(Publish Early and
-Publish Often)的理念，立志于解决两个问题：</p>
-<ul>
-<li>作为一个建造者(Builder)，如何设计一个足够灵活的系统抵抗自然的无常风险，甚至不断壮大？</li>
-<li>作为一个交易者(Trader)，如何在肥尾分布的世界对冲、套利、投资获益？</li>
-</ul>
-<p>这本书受到了查理芒格思维栅格的影响，希望用跨学科方式去给出最基础的模型并在现实世界中反复交叉运用。
-目前探讨的主题包括但不限于：心理学（时间偏见、心理会计）、精算概率、认识论（东西方差异）、编程实践（增量开发与星云假说隐喻）
-中国哲学（道家、管子轻重学）、人体医学与复杂的层级。</p>
+<div id="凯利判据与等加速运动和信息论类比" class="section level3 hasAnchor" number="6.0.2">
+<h3><span class="header-section-number">6.0.2</span> 凯利判据与等加速运动和信息论类比<a href="祸兮福所倚错了判断但赢了市场.html#凯利判据与等加速运动和信息论类比" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>如果从信息论的视角去观察凯利希望最优化的增长率指数公式我们会发现它与香农信息熵公式的构造有惊人的相似。
+香农信息熵公式为H(x) = -∑p(x)log(p(x))。香农信息熵提出的背景是在一个数据通信系统中，
+假如我们有信息源，有通信渠道和接受者，如果一个系统完全没有背景噪音，那么信号可能丢失或损失，假如噪音太大
+信号的传导不是最优的，所以我们需要找到一个合适的平衡点。</p>
+<p>如果从物理运动视角去观察凯利判据，我们以下注的比例f为x轴，G(f)对数几何平均增长率为y轴，
+我们会发现它与物理等加速运动的轨迹有惊人的相似。一旦下注比例超过了最优值，dy/dt速度就会变成负数。</p>
+</div>
+<div id="凯利判据-vs-现代投资组合理论" class="section level3 hasAnchor" number="6.0.3">
+<h3><span class="header-section-number">6.0.3</span> 凯利判据 vs 现代投资组合理论<a href="祸兮福所倚错了判断但赢了市场.html#凯利判据-vs-现代投资组合理论" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>现代投资理论假设资产的收益率服从正态分布，并且对基于历史数据的协方差矩阵的参数估计准确性要求很高。
+它假设你对所有资产的联合概率分布有一个很好的估计，但是在实际中，我们很难得到这样的估计。相反，如果我们
+在实践中使用凯利判据，我们要做的是不断根据最坏情况和期望收益的比例动态调整我们的下注比例，在投资组合的配比领域，
+凯利判据相比于现代投资组合理论或许有更好的抗模型风险能力。如我们在第二篇文章讨论的，模型风险与风险模型
+是两个截然不同但是容易混淆的概念。</p>
+</div>
+<div id="推荐书目与核心概念-1" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> 推荐书目与核心概念<a href="祸兮福所倚错了判断但赢了市场.html#推荐书目与核心概念-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li>Thorp, E. O. (2008). The Kelly criterion in blackjack sports betting, and the stock market. In Handbook of asset and liability management (pp. 385-428). North-Holland.</li>
+<li>Shannon, C. E. (1948). A mathematical theory of communication. The Bell system technical journal, 27(3), 379-423.</li>
+</ol>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="夜奔大同风险转移与均摊的大前提.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="不可胜在己的编码与交易风险管理.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="遇见五十年后的自己.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

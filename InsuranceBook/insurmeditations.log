@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.19)  8 APR 2023 20:40
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.19)  15 APR 2023 22:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1264,26 +1264,26 @@ File: 6006-chapter06_files/figure-latex/unnamed-chunk-1-1.pdf Graphic file (type
 <use 6006-chapter06_files/figure-latex/unnamed-chunk-1-1.pdf>
 [14
 
-]
+] [15]
 
-LaTeX Warning: Empty bibliography on input line 518.
+LaTeX Warning: Empty bibliography on input line 525.
 
-[15] [16] (./insurmeditations.aux)
+[16] (./insurmeditations.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
 Package rerunfilecheck Info: File `insurmeditations.out' has not changed.
-(rerunfilecheck)             Checksum: A753324F0FD68A2ED3C3CA9562D0769B;2173.
+(rerunfilecheck)             Checksum: 8A817B368CFB34DAF0C603C70038A850;2200.
 Package logreq Info: Writing requests to 'insurmeditations.run.xml'.
 \openout1 = `insurmeditations.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28100 strings out of 477643
- 572186 string characters out of 5841019
- 1544917 words of memory out of 5000000
- 48866 multiletter control sequences out of 15000+600000
+ 28122 strings out of 477643
+ 573951 string characters out of 5841019
+ 1544788 words of memory out of 5000000
+ 48888 multiletter control sequences out of 15000+600000
  478485 words of font info for 107 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,6n,138p,689b,5044s stack positions out of 10000i,1000n,20000p,200000b,200000s
